@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadiga - Front-End Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="navBar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Khadiga</a>
+            <a href="javascript:void(0);" class="navbar-toggler" id="navbarToggler">
+                <i class="fa solid fa-bars"></i>
+            </a>
+            <div class="navbar-overlay" id="navbarCollapse">
+                <a href="javascript:void(0);" class="navbar-close" id="navbarClose">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+                <ul class="navbar-content">
+                    <li><a href="#about" class="nav-link active" id="navLink">About</a></li>
+                    <li><a href="#projects" class="nav-link" id="navLink">Projects</a></li>
+                    <li><a href="#contact" class="nav-link" id="navLink">Contact</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="center-grid">
+        <div class="intro-text" id="intro">
+            <h1>Khadiga .</h1>
+            <p>Front-End Web Developer</p>
+            <div class="stars"></div>
+        </div>
+    </header>
+    <main>  
+        <!-- About section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-me">
+                    <h2 class="title">About me</h2>
+                    <div class="speech-bubble">
+                        <p>I'm a Front-End Developer located in Egypt.
+                        A passionate learner and smart worker with an interest to help people in making
+                        facinating, animatied, fast and dynamic websites.
+                        </p>
+                        <a href="/files/Khadiga-cv-2022.pdf" download class="btn download-btn">
+                            <i class="fa fa-download"></i>Download My CV
+                        </a> 
+                    </div> 
+                    <img src="https://placebear.com/g/200/200" alt="" class="my-img"> 
+                </div>
+                <!-- Skills section -->        
+                <div class="skills">
+                    <h2 class="title">My Skills</h2>
+                    <div class="skills-grid">
+                        <div>
+                            <div><img src="images/w3_html5-icon.svg"></div>
+                            <div>HTML</div>
+                        </div>
+                        <div>
+                            <div><img src="images/w3_css-icon.svg"></div>
+                            <div>CSS</div>
+                        </div>
+                        <div>
+                            <div><img src="images/javascript-icon.svg"></div>
+                            <div>JavaScript</div>
+                        </div>
+                        <div>
+                            <div><img src="images/mongodb-icon.svg"></div>
+                            <div>MongoDB</div>
+                        </div>
+                        <div>
+                            <div><img src="images/expressjs-icon.svg"></div>
+                            <div>Express.js</div>
+                        </div>
+                        <div>
+                            <div><img src="images/angular-icon.svg"></div>
+                            <div>Angular.js</div>
+                        </div>
+                        <div>
+                            <div><img src="images/nodejs-icon.svg"></div>
+                            <div>Node.js</div>
+                        </div>
+                        <div>
+                            <div><img src="images/getbootstrap-icon.svg"></div>
+                            <div>Bootstrap</div>
+                        </div>
+                    </div> 
+                    <div class="skills-grid">
+                        <div>
+                            <div><img src="images/w3_html5-icon.svg"></div>
+                            <div>HTML</div>
+                        </div>
+                        <div>
+                            <div><img src="images/w3_css-icon.svg"></div>
+                            <div>CSS</div>
+                        </div>
+                        <div>
+                            <div><img src="images/javascript-icon.svg"></div>
+                            <div>JavaScript</div>
+                        </div>
+                        <div>
+                            <div><img src="images/mongodb-icon.svg"></div>
+                            <div>MongoDB</div>
+                        </div>
+                        <div>
+                            <div><img src="images/expressjs-icon.svg"></div>
+                            <div>Express.js</div>
+                        </div>
+                        <div>
+                            <div><img src="images/angular-icon.svg"></div>
+                            <div>Angular.js</div>
+                        </div>
+                        <div>
+                            <div><img src="images/nodejs-icon.svg"></div>
+                            <div>Node.js</div>
+                        </div>
+                        <div>
+                            <div><img src="images/getbootstrap-icon.svg"></div>
+                            <div>Bootstrap</div>
+                        </div>
+                    </div> 
+                    <div class="skills-arrows">
+                        <a id="PreSkillsArrow"><i class="fa-solid fa-angles-left"></i></a>
+                        <a id="NextSkillsArrow"><i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Profile section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Leon Agency</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="https://khadiga92.github.io/Agency-Web-Template/" class="btn" target="_blank">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-grid">
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                        <a href="" class="btn">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-card-inner ">
+                            <div class="projects-card-front"></div>
+                            <div class="projects-card-back center-grid">
+                                <div>
+                                    <h4>Black Band</h4>
+                                    <p>HTML/CSS/JS</p>
+                                    <a href="" class="btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>View site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-arrows">
+                    <a id="PreProjectsArrow" onclick=""><i class="fa-solid fa-angles-left"></i></a>
+                    <a id="NextProjectsArrow" onclick=""><i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="title">Contact Me</h2>
+                <p>Have a question or want to work together?</p>
+                <div class="contacts">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Cairo, Egypt</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <p> Phone: +202-011-566-5274</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="mailto:khadiga92@hotmail.com">Email: khadiga92@hotmail.com</a></p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/khadiga-elbasousi-3635b54a/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/khadiga92">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p>Khadiga @2022</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
